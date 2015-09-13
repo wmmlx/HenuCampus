@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lostadd"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+           <TextView 
+               android:text="物品名称"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"/>
+
+           <EditText 
+               android:id="@+id/addtitle"
+               android:hint="请输入物品名称"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"/>
+
+
+           <TextView 
+               android:text="拾得/丢失时间"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"/>
+           <EditText 
+               android:id="@+id/adddate"
+               android:hint="请输入物品拾得/丢失时间"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"/>
+           <TextView 
+	               android:text="物品描述"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="20dp"/>
+           <TableRow 
+               android:layout_width="match_parent"
+	           android:layout_height="match_parent">
+	           <EditText 
+	               android:id="@+id/adddescribe"
+	               android:hint="请输入物品描述"
+	               android:layout_width="240dp"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="20dp"
+	               android:inputType="textMultiLine"/>
+	           <Button 
+		       	    android:id="@+id/addphoto"
+		       	    android:layout_width="35dp"
+		       	    android:layout_height="35dp"
+		       	    android:layout_marginRight="20dp"
+		       	    android:background="@drawable/bt_addimage"/>
+           </TableRow>
+           
+           
+
+           <TextView 
+               android:text="联系方式"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"/>
+           <EditText 
+               android:id="@+id/addphone"
+               android:hint="请输入联系方式"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:inputType="phone"/>
+           
+          <RadioGroup 
+            android:id="@+id/losrfindgroup"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton 
+	            android:id="@+id/addlost"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:text="失物招领"
+	            android:checked="true"/>
+            <RadioButton 
+	            android:id="@+id/addfind"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="寻物启事"
+	            android:layout_marginLeft="40dp"
+	            android:checked="false"/>
+       	</RadioGroup>
+       	
+
+
+</TableLayout>

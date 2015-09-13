@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment 
+        android:id="@+id/frage1"
+        android:name="com.henucampus.fragment.Page1Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+    <fragment 
+        android:id="@+id/frage2"
+        android:name="com.henucampus.fragment.Page2Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+    <fragment 
+        android:id="@+id/frage3"
+        android:name="com.henucampus.fragment.Page3Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+   <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:background="#d1d1d1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/daohang"
+            android:gravity="center_horizontal"
+            android:text="校园导航"/>
+
+        <RadioButton
+            android:id="@+id/second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/xiaoxi"
+            android:gravity="center_horizontal"
+            android:text="校园消息" />
+
+        <RadioButton
+            android:id="@+id/thrid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/shezhi"
+            android:gravity="center_horizontal"
+            android:text="个人设置" />
+
+    </RadioGroup>
+    
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/add"
+        android:titleCondensed="@string/add">
+    </item>
+    
+ 
+</menu>
+

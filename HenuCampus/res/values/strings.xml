@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HenuCampus</string>
+    <string name="daohang_name">导航页面</string>
+    <string name="register_name">注册</string>
+    <string name="lostfind_name">失物寻物</string>
+    <string name="lecture_name">讲座信息</string>
+    <string name="sport_name">体育赛事</string>
+    <string name="club_name">社团活动</string>
+    <string name="notice_name">通知中心</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">add</string>
+    <string name="name">用户</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="remember">记住密码</string>
+    <string name="auto">自动登录</string>
+    <string name="sex">性别</string>
+    <string name="mail">男</string>
+    <string name="femail">女</string>
+    <string name="phone">电话</string>
+    <string name="qq">QQ</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="selecthead">请选择头像</string>
+    <string name="xiaoyuandaohang">校园导航</string>
+</resources>

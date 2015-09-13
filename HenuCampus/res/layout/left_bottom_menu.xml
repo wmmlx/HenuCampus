@@ -1,0 +1,59 @@
+<com.henucampus.ArcView.ArcMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.henucampus.main"
+    android:id="@+id/id_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    hyman:position="left_bottom"
+    hyman:radius="180dp" >
+
+    <RelativeLayout
+       android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/composer_button" >  
+
+        <ImageView
+            android:id="@+id/id_button"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/composer_icn_plus" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_place"
+        android:tag="putmap" />
+
+    <ImageView
+       android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_sleep"
+        android:tag="weixmap" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_thought"
+        android:tag="shisjiaot" />
+      
+    <ImageView
+       android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_with"
+        android:tag="daoh" />
+    
+       <ImageView
+       android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_with"
+        android:tag="lux"/>
+        
+       <ImageView
+       android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/composer_with"
+        android:tag="wodweiz"/>
+
+</com.henucampus.ArcView.ArcMenu>

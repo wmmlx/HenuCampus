@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" >
+
+
+      <EditText 
+            android:id="@+id/city"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5.0dip"
+            android:hint="请输入城市"
+            android:background="@drawable/text_search"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16.0sp"
+          />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" >
+      
+        <AutoCompleteTextView
+            android:id="@+id/keyWord"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/text_search"
+            android:completionThreshold="1"
+            android:dropDownVerticalOffset="1.0dip"
+            android:hint="请输入地点"
+            android:imeOptions="actionDone"
+            android:inputType="text|textAutoComplete"
+            android:maxLength="20"
+            android:paddingRight="37.0dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16.0sp" />
+     </LinearLayout>
+     <Button 
+            android:id="@+id/startsearch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+           android:text="开始搜索"
+         />
+    
+</LinearLayout>

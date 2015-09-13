@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <Button
+        android:id="@+id/noticebn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知中心"/>
+    <Button
+        android:id="@+id/lostfindbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="失物寻物"/>
+    <Button
+        android:id="@+id/lecturebn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="讲座信息" />
+    <Button
+        android:id="@+id/sportbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="体育赛事"/>
+    <Button
+        android:id="@+id/clubbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="社团活动"/>
+    
+
+</LinearLayout>

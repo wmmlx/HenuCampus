@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.henucampus.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+ 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logotemp"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light"  >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="fb50b4678a2bdc97138fc06f212c1825" />
+        
+        <activity
+            android:name="com.henucampus.main.LoginActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.henucampus.main.MainActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.henucampus.main.ImageActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.henucampus.main.RegisterActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/register_name">
+        </activity>
+        <activity 
+            android:name="com.henucampus.main.DaohangActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/daohang_name">
+        </activity>
+        <activity 
+            android:name="com.henucampus.main.LectureActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/lecture_name">
+        </activity>
+        <activity
+            android:name="com.henucampus.main.LostFindActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/lostfind_name">
+        </activity>
+        <activity 
+            android:name="com.henucampus.main.SportActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/sport_name">
+        </activity>
+        <activity 
+            android:name="com.henucampus.main.ClubActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/club_name">
+        </activity>
+        <activity 
+            android:name="com.henucampus.main.NoticeActivity"
+            android:logo="@drawable/logotemp"
+            android:label="@string/notice_name">
+        </activity>
+        
+    </application>
+
+</manifest>

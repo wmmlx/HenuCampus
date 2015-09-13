@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/Bmob_Push_V0.6beta_20150408.jar"/>
+	<classpathentry kind="lib" path="libs/BmobSDK_V3.4.2_0727.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/ww/ww/libs/Android_Location_V1.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/ww/ww/libs/MapApiServices.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/ww/ww/libs/Android_Map_2.5.1.20150827.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
